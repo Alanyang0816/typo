@@ -5,6 +5,7 @@ class Admin::CategoriesController < Admin::BaseController
   def edit; new_or_edit;  end
 
   def new 
+   #@category = Category.new
     respond_to do |format|
       format.html { new_or_edit }
       format.js { 

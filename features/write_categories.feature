@@ -10,3 +10,4 @@ Feature: Write_categories.feature
   Scenario: Successfully create a category
     When I am on the categories page
     Then I should see "Description"
+    
